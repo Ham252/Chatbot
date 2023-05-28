@@ -12,9 +12,9 @@
         ],
         "responses": [
           "Hey :-)",
-          "Hello, thanks for visiting",
-          "Hi there, what can I do for you?",
-          "Hi there, how can I help?"
+          "Hello, Welcome to Codyle!",
+          "Hi There, How May I Help You?",
+          "Hey, How Can I Help?"
         ]
       },
       {
@@ -34,13 +34,12 @@
       {
         "tag": "items",
         "patterns": [
-          "Which items do you have?",
-          "What kinds of items are there?",
+          "What services do you sell?",
+          "What kinds of stuff do you have?",
           "What do you sell?"
         ],
         "responses": [
-          "We sell coffee and tea",
-          "We have coffee and tea"
+          "We develop and maintain full stack web apps and websites, as well as graphic design services"
         ]
       },
       {
@@ -48,24 +47,11 @@
         "patterns": [
           "Do you take credit cards?",
           "Do you accept Mastercard?",
-          "Can I pay with Paypal?",
-          "Are you cash only?"
+          "Can I pay with Paypal?"
         ],
         "responses": [
           "We accept VISA, Mastercard and Paypal",
           "We accept most major credit cards, and Paypal"
-        ]
-      },
-      {
-        "tag": "delivery",
-        "patterns": [
-          "How long does delivery take?",
-          "How long does shipping take?",
-          "When do I get my delivery?"
-        ],
-        "responses": [
-          "Delivery takes 2-4 days",
-          "Shipping takes 2-4 days"
         ]
       },
       {
