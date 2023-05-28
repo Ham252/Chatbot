@@ -10,9 +10,9 @@ def stem(word):
      return stemmer.stem(word.lower())
  
 def bag_of_words(tokenized_sentence, all_words):
-     pass
- 
-a = "Do you take credit cards?"
-print(a)
-a = tokenize(a)
-print(a)
+     """
+     sentence = ["hello", "how", "are", "you"]
+    words = ["hi", "hello", "I", "you", "bye", "thank", "cool"]
+    bog   = [  0 ,    1 ,    0 ,   1 ,    0 ,    0 ,      0]
+     """
+
