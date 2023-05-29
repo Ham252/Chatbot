@@ -55,15 +55,14 @@
         ]
       },
       {
-        "tag": "funny",
+        "tag": "account",
         "patterns": [
-          "Tell me a joke!",
-          "Tell me something funny!",
-          "Do you know a joke?"
+          "Where can i change my password",
+          "How do I change my Email",
+          "I forgot my password, what do i do?"
         ],
         "responses": [
-          "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
-          "What did the buffalo say when his son left for college? Bison."
+          "You can access your personal information and change it from the security tab in your account settings"
         ]
       }
     ]
