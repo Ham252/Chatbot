@@ -1,7 +1,6 @@
 import numpy as np
 import random
 import json
-
 import torch
 import torch.nn as nn
 from torch.utils.data import Dataset, DataLoader
@@ -86,11 +85,9 @@ train_loader = DataLoader(dataset=dataset,
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
 model = NeuralNet(input_size, hidden_size, output_size).to(device)
-
 # Loss and optimizer
 criterion = nn.CrossEntropyLoss()
 optimizer = torch.optim.Adam(model.parameters(), lr=learning_rate)
-
 # Train the model
 for epoch in range(num_epochs):
     for (words, labels) in train_loader:
