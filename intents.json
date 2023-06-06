@@ -1,69 +1,218 @@
 {
-    "intents": [
-      {
-        "tag": "greeting",
-        "patterns": [
-          "Hi",
-          "Hey",
-          "How are you",
-          "Is anyone there?",
-          "Hello",
-          "Good day"
-        ],
-        "responses": [
-          "Hey :-)",
-          "Hello, Welcome to Codyle!",
-          "Hi There, How May I Help You?",
-          "Hey, How Can I Help?"
-        ]
-      },
-      {
-        "tag": "goodbye",
-        "patterns": ["Bye", "See you later", "Goodbye"],
-        "responses": [
-          "See you later, thanks for visiting",
-          "Have a nice day",
-          "Bye! Come back again soon."
-        ]
-      },
-      {
-        "tag": "thanks",
-        "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
-        "responses": ["Happy to help!", "Any time!", "My pleasure"]
-      },
-      {
-        "tag": "items",
-        "patterns": [
-          "What services do you sell?",
-          "What kinds of stuff do you have?",
-          "What do you sell?"
-        ],
-        "responses": [
-          "We develop and maintain full stack web apps and websites, as well as graphic design services"
-        ]
-      },
-      {
-        "tag": "payments",
-        "patterns": [
-          "Do you take credit cards?",
-          "Do you accept Mastercard?",
-          "Can I pay with Paypal?"
-        ],
-        "responses": [
-          "We accept VISA, Mastercard and Paypal",
-          "We accept most major credit cards, and Paypal"
-        ]
-      },
-      {
-        "tag": "account",
-        "patterns": [
-          "Where can i change my password",
-          "How do I change my Email",
-          "I forgot my password, what do i do?"
-        ],
-        "responses": [
-          "You can access your personal information and change it from the security tab in your account settings"
-        ]
-      }
-    ]
-  }
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day",
+        "Greetings",
+        "Hey, how can I assist you?"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, Welcome to Codyle!",
+        "Hi there, How may I help you?",
+        "Hey, How can I assist?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye",
+        "Farewell",
+        "Take care"
+      ],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon.",
+        "Take care!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "That's helpful",
+        "Thank's a lot!",
+        "I appreciate it"
+      ],
+      "responses": [
+        "Happy to help!",
+        "Any time!",
+        "My pleasure",
+        "You're welcome!"
+      ]
+    },
+    {
+      "tag": "identity",
+      "patterns": [
+        "Who are you?",
+        "What is your name?",
+        "Tell me about yourself",
+        "Introduce yourself"
+      ],
+      "responses": [
+        "I am Osama, a chatbot designed by the Codyle team to assist you with any questions or concerns you may have. I'm here to provide information and support to the best of my abilities."
+      ]
+    },
+    {
+      "tag": "company",
+      "patterns": [
+        "What services does Codyle offer?",
+        "Who are the founders of Codyle?",
+        "How can Codyle benefit university students?",
+        "Can business owners benefit from Codyle?",
+        "Are there any technology-related events on Codyle?",
+        "What does Codyle do?",
+        "Tell me more about Codyle"
+      ],
+      "responses": [
+        "Codyle offers a range of services including web development, mobile app development, UI/UX design, and technology consulting. We strive to provide customized solutions to meet your specific needs.",
+        "Codyle was founded by university students.",
+        "Codyle can benefit university students by providing technology-related resources and self-improvement content.",
+        "Yes, business owners can benefit from Codyle's services.",
+        "Yes, Codyle hosts technology-related events.",
+        "Codyle is a technology company that provides various services including web development, mobile app development, and UI/UX design.",
+        "Codyle is an innovative company that aims to help businesses and individuals succeed through technology solutions."
+      ]
+    },
+    {
+      "tag": "services",
+      "patterns": [
+        "What services does Codyle offer?",
+        "Tell me about your services",
+        "What can I get from Codyle?",
+        "What services you have",
+        "What do you provide",
+        "What kind of services do you provide?"
+      ],
+      "responses": [
+        "Codyle offers a range of services including web development, mobile app development, UI/UX design, and technology consulting. We strive to provide customized solutions to meet your specific needs.",
+        "At Codyle, we offer services such as web development, mobile app development, UI/UX design, and technology consulting.",
+        "Our services include web development, mobile app development, UI/UX design, and technology consulting. We aim to deliver high-quality solutions tailored to your requirements."
+      ]
+    },
+    {
+      "tag": "events",
+      "patterns": [
+        "Are there any upcoming events on Codyle?",
+        "Tell me about the technology-related events",
+        "What kind of events does Codyle host?",
+        "What kind of events you have",
+        "Do you organize events?"
+      ],
+      "responses": [
+        "Codyle hosts a variety of technology-related events such as workshops, seminars, and hackathons. Stay tuned to our website for updates on upcoming events.",
+        "We organize technology-related events like workshops, seminars, and hackathons. Keep an eye on our website for information on upcoming events.",
+        "You can find a range of technology-related events on Codyle, including workshops, seminars, and hackathons. We frequently update our website with the latest event information."
+      ]
+    },
+    {
+      "tag": "blog",
+      "patterns": [
+        "Can you recommend any interesting blog posts on Codyle?",
+        "Tell me about your blog section",
+        "What topics are covered in Codyle's blog?",
+        "Do you have a blog?"
+      ],
+      "responses": [
+        "Codyle's blog covers a wide range of topics including technology trends, self-improvement, career advice, and industry insights. Check out our blog section for engaging and informative articles.",
+        "In our blog section, you'll find articles on various topics including technology trends, self-improvement, career advice, and industry insights.",
+        "We have an extensive blog covering diverse topics such as technology trends, self-improvement, career advice, and industry insights. Explore our blog section to find interesting articles."
+      ]
+    },
+    {
+      "tag": "roadmaps",
+      "patterns": [
+        "What is the roadmap section about?",
+        "Tell me more about the roadmaps on Codyle",
+        "How can I access the roadmaps?",
+        "Where can I find the roadmaps?"
+      ],
+      "responses": [
+        "Codyle's roadmap section provides a view of ongoing and upcoming projects. It offers insights into the planned features, milestones, and timelines for our products. You can access the roadmaps on our website by visiting the following link: [Codyle Roadmaps](https://codyle.com/User/Home/RoadMaps)",
+        "In the roadmap section, you can find information about our ongoing and upcoming projects. It gives you a glimpse into the planned features, milestones, and timelines. To access the roadmaps, please visit [Codyle Roadmaps](https://codyle.com/User/Home/RoadMaps)."
+      ]
+    },
+    {
+      "tag": "team",
+      "patterns": [
+        "Who are the people behind Codyle?",
+        "Tell me about your team",
+        "Who is involved in Codyle's development?",
+        "Who works at Codyle?",
+        "Who are the founders?"
+      ],
+      "responses": [
+        "Codyle is powered by a team of talented and passionate individuals who are dedicated to delivering high-quality solutions. Our team consists of skilled developers, designers, and consultants with diverse expertise.",
+        "At Codyle, we have a team of skilled professionals including developers, designers, and consultants. Each member plays a crucial role in the development and delivery of our services.",
+        "Our team at Codyle is comprised of experienced professionals with expertise in various domains. We have developers, designers, and consultants who work together to provide innovative solutions."
+      ]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "What services do you sell?",
+        "What kinds of stuff do you have?",
+        "What do you sell?",
+        "What are your offerings?"
+      ],
+      "responses": [
+        "We develop and maintain full-stack web apps and websites, provide graphic design services, and offer technology consulting.",
+        "Our offerings include full-stack web app and website development, graphic design services, and technology consulting.",
+        "We provide services such as full-stack web app and website development, graphic design, and technology consulting."
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal?",
+        "What payment methods do you accept?"
+      ],
+      "responses": [
+        "We accept VISA, Mastercard, and PayPal as payment methods.",
+        "We accept most major credit cards, including Mastercard. PayPal is also an accepted payment method.",
+        "You can pay with VISA, Mastercard, or PayPal. We support multiple payment options for your convenience."
+      ]
+    },
+    {
+      "tag": "account",
+      "patterns": [
+        "Where can I change my password",
+        "I want to change my password",
+        "How do I change my Email",
+        "I forgot my password, what do I do?",
+        "How can I update my account information?"
+      ],
+      "responses": [
+        "You can access and change your personal information, including your password and email, from the security tab in your account settings. If you forgot your password, you can initiate a password reset process by clicking on the 'Forgot password' link.",
+        "To change your password, navigate to the security tab in your account settings. If you need to update your email, you can do so in the same section. If you forgot your password, you can initiate a password reset process by clicking on the 'Forgot password' link."
+      ]
+    },
+    {
+      "tag": "inappropriate",
+      "patterns": [
+        "You're stupid",
+        "This bot is dumb",
+        "You're an idiot",
+        "Go away",
+        "You suck",
+        "I don't like you"
+      ],
+      "responses": [
+        "I'm sorry if I have not met your expectations. If you have any specific questions or concerns, I'm here to help. Let's keep the conversation respectful and focused on productive discussions.",
+        "I apologize if I haven't met your expectations. If there's anything specific you'd like assistance with, feel free to ask. I'm here to provide information and support in a positive manner."
+      ]
+    }
+  ]
+}
