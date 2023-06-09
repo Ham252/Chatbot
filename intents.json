@@ -66,7 +66,6 @@
     {
       "tag": "company",
       "patterns": [
-        "What services does Codyle offer?",
         "Who are the founders of Codyle?",
         "How can Codyle benefit university students?",
         "Can business owners benefit from Codyle?",
@@ -122,7 +121,8 @@
         "Can you recommend any interesting blog posts on Codyle?",
         "Tell me about your blog section",
         "What topics are covered in Codyle's blog?",
-        "Do you have a blog?"
+        "Do you have a blog?", 
+        "do you have blogs"
       ],
       "responses": [
         "Codyle's blog covers a wide range of topics including technology trends, self-improvement, career advice, and industry insights. Check out our blog section for engaging and informative articles.",
