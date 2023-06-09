@@ -92,7 +92,8 @@
         "What can I get from Codyle?",
         "What services you have",
         "What do you provide",
-        "What kind of services do you provide?"
+        "What kind of services do you provide?",
+        "What kind of services do you have"
       ],
       "responses": [
         "Codyle offers a range of services including web development, mobile app development, UI/UX design, and technology consulting. We strive to provide customized solutions to meet your specific needs.",
